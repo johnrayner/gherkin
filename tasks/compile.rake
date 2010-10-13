@@ -76,7 +76,7 @@ class CSharpSByteFixTask
   def define_tasks
     directory File.dirname(target)
     file target => [File.dirname(target), @source] do
-      sh "cat #{@source} | sed ""s/sbyte/short/g"" > #{target}"
+      sh "type #{@source.gsub("/", "\\")} | sed ""s/sbyte/short/g"" > #{target}"
     end
   end
 

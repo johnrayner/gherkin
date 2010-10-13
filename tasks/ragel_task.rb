@@ -13,7 +13,7 @@ class RagelTask
   def define_tasks
     file target => [lang_ragel, common_ragel] do
       mkdir_p(File.dirname(target)) unless File.directory?(File.dirname(target))
-      sh "ragel #{flags} #{lang_ragel} -o #{target}"
+      sh "lib/ragel/ragel #{flags} -I #{RL_OUTPUT_DIR} #{lang_ragel} -o #{target}"
     end
 
     file lang_ragel => lang_erb do
