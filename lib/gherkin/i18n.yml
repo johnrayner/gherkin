@@ -416,19 +416,6 @@
   then: "*|То"
   and: "*|И|К тому же"
   but: "*|Но|А"
-"se":
-  name: Swedish
-  native: Svenska
-  feature: Egenskap
-  background: Bakgrund
-  scenario: Scenario
-  scenario_outline: Abstrakt Scenario
-  examples: Exempel
-  given: "*|Givet"
-  when: "*|När"
-  then: "*|Så"
-  and: "*|Och"
-  but: "*|Men"
 "sk":
   name: Slovak
   native: Slovensky
@@ -468,6 +455,19 @@
   then: "*|Онда"
   and: "*|И"
   but: "*|Али"
+"sv":
+  name: Swedish
+  native: Svenska
+  feature: Egenskap
+  background: Bakgrund
+  scenario: Scenario
+  scenario_outline: Abstrakt Scenario
+  examples: Exempel
+  given: "*|Givet"
+  when: "*|När"
+  then: "*|Så"
+  and: "*|Och"
+  but: "*|Men"
 "tr":
   name: Turkish
   native: Türkçe

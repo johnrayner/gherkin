@@ -163,9 +163,6 @@
     <Compile Include="Lexer\ru.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Lexer\se.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Lexer\sk.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -175,6 +172,7 @@
     <Compile Include="Lexer\srLatn.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Lexer\sv.cs" />
     <Compile Include="Lexer\tr.cs">
       <SubType>Code</SubType>
     </Compile>
